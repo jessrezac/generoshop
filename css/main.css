@@ -1,0 +1,23 @@
+body {
+	background-color: #ded1e1;
+	font-family: "Helvetica Neue", sans-serif;
+	color: #646065;
+}
+
+a {
+	color: #5c1d6c;
+	text-decoration: none;
+}
+
+.light {
+	font-family: "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-weight: 200;
+}
+
+.small {
+	font-size: 13px;
+}
+
+.align-center {
+	text-align: center;
+}
