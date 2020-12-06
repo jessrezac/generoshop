@@ -3,7 +3,8 @@ body {
 	font-family: "Helvetica Neue", sans-serif;
 	font-weight: 300;
 	color: #141414;
-	font-size: 17px;
+	font-size: 18px;
+	margin: 0px;
 }
 
 h2 {
@@ -18,48 +19,62 @@ a {
 	text-decoration: none;
 }
 
+strong {
+	font-family: "Helvetica Neue Medium", "Helvetica Neue", sans-serif;
+	font-weight: bold;
+}
+
 footer {
 	color: #646065;
-}
-
-.container {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.item {
-	margin: auto;
+	font-size: 0.875rem;
+	padding: 28px;
 	text-align: center;
-	border-left: 1px solid #f9ffec;
-	margin-left: -1px;
-	padding: 0 10%;
 }
 
-.container::before {
-	border: 1px;
+/* Text styles */
+.thin {
+	font-family: "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-weight: 200;
 }
 
-.item img {
-	width: 20%;
+/* Offer aside */
+.offer {
+	background: #5c1d6c;
+	color: #ffffff;
+	padding: 10px 0;
+	text-align: center;
+	font-size: ;
 }
+
+/* Products Section */
+.products {
+	background: #ffffff;
+	padding: 28px 0;
+}
+
+/* Callout Section */
 
 .callout {
 	background: url("../assets/testpg-full-width-callout-background-1200x282.jpg");
 	background-position: center;
 	background-size: cover;
 	height: 282px;
+	padding: 28px 0;
 }
 
-.light {
-	font-family: "Helvetica Neue Light", "Helvetica Neue", sans-serif;
-	font-weight: 200;
+.callout.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.small {
-	font-size: 13px;
-}
-
-.align-center {
+.callout .item {
 	text-align: center;
+	border-left: 1px solid #f9ffec;
+	margin-left: -1px;
+	padding: 0 10%;
+}
+
+.callout .item img {
+	width: 20%;
 }
