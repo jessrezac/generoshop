@@ -7,23 +7,6 @@ body {
 	margin: 0px;
 }
 
-h2 {
-	font-weight: bold;
-	font-size: 1.25rem;
-	padding: 10px 0 0 0;
-	margin: 0;
-}
-
-a {
-	color: #5c1d6c;
-	text-decoration: none;
-}
-
-strong {
-	font-family: "Helvetica Neue Medium", "Helvetica Neue", sans-serif;
-	font-weight: bold;
-}
-
 footer {
 	color: #646065;
 	font-size: 0.875rem;
@@ -31,10 +14,98 @@ footer {
 	text-align: center;
 }
 
+/* link styles */
+
+a {
+	color: #5c1d6c;
+	text-decoration: none;
+}
+
 /* Text styles */
+
+h1 {
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.25rem;
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+
+strong {
+	font-family: "Helvetica Neue Medium", "Helvetica Neue", sans-serif;
+	font-weight: bold;
+}
+
 .thin {
 	font-family: "Helvetica Neue Light", "Helvetica Neue", sans-serif;
 	font-weight: 200;
+}
+
+/* Hero section */
+.hero {
+	background: url("../assets/testpg-hero-bg-1200x870.jpg");
+	background-position: right;
+	background-size: cover;
+	height: 90vh;
+	position: relative;
+}
+
+.hero-text {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 40%;
+	text-align: center;
+}
+
+.title {
+	font-size: 6rem;
+	letter-spacing: -0.2rem;
+	padding: 0;
+	margin: 0;
+}
+
+.title strong {
+	font-weight: 400;
+}
+
+.subhead {
+	font-size: 4rem;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.subhead .border {
+	border-top: 1px solid #ffffff;
+	flex-grow: 1;
+	margin: 0 25px;
+}
+
+.description {
+	font-size: 2.75rem;
+	color: #ffffff;
+}
+
+.hero a.button {
+	padding: 10px 25px;
+	border: 3px solid #ffffff;
+	background: #591f69;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-weight: 500;
+}
+
+.hero a.button:hover {
+	background: #ffffff;
+	color: #591f69;
+	border: 3px solid #591f69;
 }
 
 /* Offer aside */
