@@ -65,9 +65,28 @@ strong {
 	align-items: center;
 }
 
-img#cart-icon {
-	width: 49px;
+#cart-icon {
+	position: relative;
 	height: 49px;
+	width: 49px;
+	background-image: url("../assets/testpg-icon-cart--purple.png");
+	background-size: 49px;
+}
+
+#cart-icon:hover {
+	background-image: url("../assets/testpg-icon-cart--black.png");
+}
+
+#cart-icon p {
+	background: #141414;
+	color: #ffffff;
+	font-size: 0.6111rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 4px;
+	border-radius: 100px;
 }
 
 img#menu-icon {
