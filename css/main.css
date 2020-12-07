@@ -293,6 +293,13 @@ img#menu-icon {
 	font-size: 1.5rem;
 }
 
+.cart-close {
+	cursor: pointer;
+	height: 36px;
+	width: 36px;
+	float: right;
+}
+
 #cart-product-list {
 	list-style-type: none;
 	padding: 0;
@@ -300,6 +307,7 @@ img#menu-icon {
 
 .cart-product {
 	font-size: 1.111rem;
+	padding: 14px 0;
 	overflow: auto;
 }
 
@@ -319,4 +327,18 @@ img#menu-icon {
 	border-top: 1px solid #cccccc;
 	margin-top: 14px;
 	padding-top: 14px;
+}
+
+.checkout-container a.button {
+	background: #591f69;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-weight: 500;
+	display: block;
+	width: 70%;
+	margin: 14px auto;
+	padding: 10px 25px;
+	border: 3px solid #ffffff;
 }
