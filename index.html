@@ -14,7 +14,7 @@
                 <div class="logo">
                     <img src="assets/testpg-logo.svg" alt="Generososhop logo">
                     <div class="menu-container">
-                        <img id="cart-icon" src="assets/testpg-icon-cart--purple.png" alt="Shopping Cart">
+                        <img id="cart-icon" src="assets/testpg-icon-cart--purple.png" alt="Shopping Cart" onClick="showCart()">
                         <img id="menu-icon" src="assets/testpg-icon-menu--purple.png" alt="Menu">
                     </div>
                 </div>
@@ -46,17 +46,6 @@
         <div class="products">
             <h2 class="tk-shelby">Popular Products</h2>
             <div class="container" id="products-container">
-                <div class="product">
-                    <div class="product-image">
-                        <img src="assets/testpg-product-img-dress.jpg">
-                        <div class="add-to-cart">
-                            Add To Cart
-                        </div>
-                    </div>
-                    <p class="product-category">Apparel</p>
-                    <p class="product-name">Cocktail Dress</p>
-                    <p class="product-price">$300.00</p>
-                </div>
             </div>
         </div>
     </section>
@@ -74,6 +63,24 @@
                 Duis nec vestibulum magna, et dapibus lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                 sit amet.
             </div>
+        </div>
+    </section>
+    <section id="shopping-cart">
+        <div class="shopping-cart visible">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-product-list">
+                <li class="cart-product">
+                    <img class="cart-product-image" src="assets/testpg-product-img-satchel.jpg">
+                    <strong class="cart-product-title">
+                        Leather Satchel
+                    </strong><br />
+                    1 x $250.00
+                </li>
+            </ul>
+            <div class="cart-subtotal">
+                SUBTOTAL: <span id="cart-subtotal">$250.00</span>
+            </div>
+
         </div>
     </section>
     <footer>

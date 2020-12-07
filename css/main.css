@@ -1,6 +1,7 @@
 body {
 	background-color: #ded1e1;
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium",
+		"Helvetica Neue";
 	font-weight: 300;
 	color: #141414;
 	font-size: 18px;
@@ -174,6 +175,10 @@ img#menu-icon {
 
 /* Product Styles */
 
+.product {
+	margin: 14px 0;
+}
+
 .product p {
 	margin: 0;
 }
@@ -264,4 +269,54 @@ img#menu-icon {
 
 .callout .item img {
 	width: 20%;
+}
+
+/* Shopping Cart */
+
+#shopping-cart {
+	visibility: hidden;
+}
+
+.shopping-cart {
+	background: #ffffff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	width: 386px;
+	height: 100vh;
+	overflow: auto;
+	padding: 14px 40px;
+}
+
+.shopping-cart h2 {
+	font-size: 1.5rem;
+}
+
+#cart-product-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.cart-product {
+	font-size: 1.111rem;
+	overflow: auto;
+}
+
+.cart-product-title {
+	font-weight: bold;
+}
+
+.cart-product-image {
+	height: 106px;
+	width: 106px;
+	float: right;
+}
+
+.cart-subtotal {
+	font-size: 1.111rem;
+	font-weight: 500;
+	border-top: 1px solid #cccccc;
+	margin-top: 14px;
+	padding-top: 14px;
 }
